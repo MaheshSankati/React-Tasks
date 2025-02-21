@@ -5,7 +5,7 @@ const products = [
   {
     productName: "Mobile",
     productImage: "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    produtPrice: 55000,
+    produtPrice: 10000,
     productAvailability: false,
   },
   {
@@ -18,7 +18,7 @@ const products = [
   {
     productName: "Watch",
     productImage: "https://m.media-amazon.com/images/I/61IduqXygwL._AC_UY350_.jpg",
-    produtPrice: 30000,
+    produtPrice: 3000,
     productAvailability: false,
   },
 ];

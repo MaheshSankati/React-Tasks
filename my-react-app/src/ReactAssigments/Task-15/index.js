@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import MyVerticallyCenteredModal from "../Task-5/accordion";
+import MyVerticallyCenteredModal from "./modelcomponent";
 
 function LoginForm() {
   const [modalShow, setModalShow] = useState(false);

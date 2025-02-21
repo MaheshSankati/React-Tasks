@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import MyVerticallyCenteredModal from "../Task-5/accordion";
-
+import MyVerticallyCenteredModal from "./modalcomp";
 
 function FormComponent() {
   const [modalShow, setModalShow] = useState(false);
@@ -30,9 +29,7 @@ function FormComponent() {
     setModalShow(true);
   };
 
-
   return (
-    <>
     <div
       style={{
         display: "flex",
@@ -64,7 +61,7 @@ function FormComponent() {
         image={formData.img}
       />
     </div>
-    </>
   );
 }
+
 export default FormComponent;
